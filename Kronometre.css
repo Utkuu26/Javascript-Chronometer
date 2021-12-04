@@ -1,0 +1,47 @@
+body {
+  background: #0f3854;
+  background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 80%);
+  background-size: 100%;
+  font-family: Rockwell;
+}
+
+p {
+  font-size: 200px;
+  height: 100%;
+  line-height: 300px;
+  text-align: center;
+}
+
+.butonlar {
+  color: #3a7080;
+  position: fixed;
+  width: 70%;
+  text-align: center;
+  top: 1em;
+  width: 100%;
+  margin-top: 70px; 
+}
+
+button {
+  color: #3a7080;
+  background-color: black;
+  font-size: 50px;
+  margin: 50px;
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 5px;
+  border-style: double;
+  border-color: white;
+}
+
+#butonBasla:hover{
+  color: green;
+}
+
+#butonDur:hover{
+  color: red;
+}
+
+#butonYenile:hover{
+  color: yellow;
+}
